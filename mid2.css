@@ -1,0 +1,38 @@
+.meio2{
+    width: 100%;
+    height: 570px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--font-family-merienda);
+}
+#top{
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top h1{
+    font-size: 70px;
+    color: #da582f;
+}
+
+.down{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.plane{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

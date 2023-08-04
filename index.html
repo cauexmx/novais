@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/arrow-left?f=classic&s=solid&sz=2xs">
+    <script src="/javascript/cardapio.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class = "logotipo" src="/img/Logotipo pizzaria Novais.png" alt="Logotipo">
+            <ul class="lista_menu menu">
+                <li><span class="material-symbols-outlined">
+                    home
+                    </span></li>
+                <li><span class="material-symbols-outlined">
+                    info
+                    </span></li>
+                <li><span class="material-symbols-outlined">
+                    location_on
+                    </span></li>
+            </ul>
+            <ul class="lista_icon">
+                <li><span class="material-symbols-outlined">
+                    menu
+                    </span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                    
+                </li>
+            </ul>
+        </nav>
+        <div class="mensagem_principal">
+            <h1 class="titulo_principal">A melhor <span>pizzaria</span> <br> de Osasco <br></h1>
+            <br>
+            <p class="text-large">Na pizzaria Novais, cada pedaço é uma celebração de sabor autêntico e aconchego</p>
+            <button>Veja nosso menu</button>
+        </div>
+        
+        <img src="/img/pizza1.png" alt="Minha imagem principal" class="imagem_principal">
+        <div class="div_arredondada"></div>
+    </header>
+    <section class="cards">
+        <div class="card card_verde_menta">
+            <img class = "imagem_pizza" src="/img/pizza.png" alt="">
+            <p class="text-large">Mussarela</p>
+            <p>R$50,00</p>
+        </div>
+        <div class="card card_rosa_pastel">
+            <img class = "imagem_pizza" src="/img/pizza.png" alt="">
+            <p class="text-large">Mussarela</p>
+            <p>R$50,00</p>
+        </div>
+        <div class="card card_pessego">
+            <img class = "imagem_pizza" src="/img/pizza.png" alt="">
+            <p class="text-large">Mussarela</p>
+            <p>R$50,00</p>
+        </div>
+    </section>
+    <header class="meio">
+        <div class="div_arredondada2"></div>
+        <div class="img-mid"><img class="meiopizza" src="./img/pizza2.png" alt="" width="50%"></div>
+        <div class="text-mid">
+            <h2>Seja bem vindo a</h2>
+            <h1>Pizzaria Novais</h1>
+            <h3>A Pizzaria Novais atravessou o Atlântico, conquistou São Paulo e os nossos corações.
+                Na Pizzaria Novais queremos que você tenha a melhor experiência ao apreciar todo
+                o sabor de uma verdadeira pizza. Tradição e qualidade que se iniciam desde a
+                escolha minuciosa dos ingredientes, incluindo o preparo artesanal da massa e ambiente para família e amigos.</h3>
+        </div>
+    </header>
+    <header class="meio2">
+        <div id="top"><h1> Cardápio </h1></div>
+        <div class="down">
+            <div class="plane">
+                <div id='main'>
+                    <div id='navigation'><a class="menu atual" href='#cardapio' onclick='change(event)' id='menupizza'>Pizzas </a><span class='bullet'>.</span>
+                      <a class="menu" href='#cardapio' onclick='change(event)' id='menunordestina'>Pizzas doces</a> <span class='bullet'>.</span>
+                      <a class="menu" href='#cardapio' onclick='change(event)' id='menupetiscos'>Bebidas</a>
+                    </div>
+                    <div id='dynamic'>
+                      <div class="content" id='pizza'>
+                        <div class='singleitem'>
+                          <span class='menuitem'>MUSSARELA</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>Uma deliciosa combinação de massa fina e crocante, coberta com molho de tomate fresco, mussarela premium derretida e um toque de azeite de oliva extra virgem.</p>
+                        </div>
+                        <div class='singleitem'>
+                          <span class='menuitem'>PORTUGUESA</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>Generosamente coberta com molho de tomate, mussarela derretida, presunto, ovos, cebola, ervilhas e fatias de azeitonas pretas. Uma experiência irresistível para os amantes de uma pizza autêntica.</p>
+                        </div>
+                        <div class='singleitem'>
+                          <span class='menuitem'>CALABRESA</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>Cuidadosamente coberta com molho de tomate fresco, mussarela derretida e fatias suculentas de calabresa levemente apimentada. Cada mordida é uma viagem de prazer ao paladar. </p>
+                        </div>
+                      </div>
+                      <div class="content" id='nordestina'>
+                        <div class='singleitem'>
+                          <span class='menuitem'>CHOCOLATE COM MORANGO</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>Massa fina e crocante coberta com chocolate derretido e morangos frescos. Uma sobremesa dos sonhos que combina doçura e frescor. </p>
+                        </div>
+                        <div class='singleitem'>
+                          <span class='menuitem'>ROMEU E JULIETA</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>Queijo, requeijão cremoso e goiabada cascão. A combinação perfeita de doçura e cremosidade inspirada na história de amor clássica.</p>
+                        </div>
+                        <div class='singleitem'>
+                          <span class='menuitem'>BANOFE</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>Creme de doce de leite, fatias de banana fresca e chantilly. Inspirada na famosa torta inglesa "Banoffee Pie". </p>
+                        </div>
+                      </div>
+                  
+                      <div class="content" id='petisco'>
+                        <div class='singleitem'>
+                          <span class='menuitem'>COCA-COLA</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>Um famoso refrigerante carbonatado, com sabor único e refrescante. Disponível em diferentes apresentações e tamanhos, é a escolha ideal para acompanhar refeições ou momentos de descontração.</p>
+                        </div>
+                        <div class='singleitem'>
+                          <span class='menuitem'>SUCO DE LARANJA</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>Uma bebida natural e refrescante, extraída do suco de laranjas frescas e suculentas. Desfrute do frescor e do aroma cítrico do suco de laranja, uma fonte de energia natural e uma escolha clássica para todos os momentos do dia.</p>
+                        </div>
+                        <div class='singleitem'>
+                          <span class='menuitem'>H2O!</span><span class='p'>P</span><span class='m'>M</span><span class='g'>G</span>
+                          <p class='text'>É mais que um toque de limão: é um boost de sabor e refrescância.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>    
+            </div>
+        </div>
+    </header>
+    <header class="meio3">
+        
+    </header>
+    
+    
+</body>
+</html>

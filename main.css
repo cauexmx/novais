@@ -1,0 +1,14 @@
+@import "/base/reset.css";
+@import "/base/typography.css";
+@import "/base/variaveis.css";
+@import "/layout/nav.css";
+@import "/layout/header.css";
+@import "/module/button.css";
+@import "/module/card.css";
+@import "/base/section_cards.css";
+@import "/layout/footer.css";
+@import "/layout/mid.css";
+@import "/layout/mid2.css";
+@import "/layout/cardapio.css";
+@import "/layout/mid3.css";
+@import "/module/location.css";
